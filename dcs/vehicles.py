@@ -204,84 +204,84 @@ class Infantry:
 class AirDefence:
 
     class SAM_SA_19_Tunguska_2S6(unittype.VehicleType):
-        id = "2S6 Tunguska"
+        id = "SA-19 | 2S6 Tunguska "
         name = "SAM SA-19 Tunguska 2S6"
         detection_range = 18000
         threat_range = 8000
         air_weapon_dist = 8000
 
     class SAM_SA_6_Kub_LN_2P25(unittype.VehicleType):
-        id = "Kub 2P25 ln"
+        id = "SA-6 | Kub 2P25 LN "
         name = "SAM SA-6 Kub LN 2P25"
         detection_range = 0
         threat_range = 25000
         air_weapon_dist = 25000
 
     class SAM_SA_3_S_125_LN_5P73(unittype.VehicleType):
-        id = "5p73 s-125 ln"
+        id = "SA-3 | S-125 5P73 LN "
         name = "SAM SA-3 S-125 LN 5P73"
         detection_range = 0
         threat_range = 18000
         air_weapon_dist = 18000
 
     class SAM_SA_10_S_300PS_LN_5P85C(unittype.VehicleType):
-        id = "S-300PS 5P85C ln"
+        id = "SA-10 | S-300PS 5P85C LN "
         name = "SAM SA-10 S-300PS LN 5P85C"
         detection_range = 0
         threat_range = 120000
         air_weapon_dist = 120000
 
     class SAM_SA_10_S_300PS_LN_5P85D(unittype.VehicleType):
-        id = "S-300PS 5P85D ln"
+        id = "SA-10 | S-300PS 5P85D LN "
         name = "SAM SA-10 S-300PS LN 5P85D"
         detection_range = 0
         threat_range = 120000
         air_weapon_dist = 120000
 
     class SAM_SA_11_Buk_LN_9A310M1(unittype.VehicleType):
-        id = "SA-11 Buk LN 9A310M1"
+        id = "SA-11 | Buk 9A310M1 LN "
         name = "SAM SA-11 Buk LN 9A310M1"
         detection_range = 50000
         threat_range = 35000
         air_weapon_dist = 35000
 
     class SAM_SA_8_Osa_9A33(unittype.VehicleType):
-        id = "Osa 9A33 ln"
+        id = "SA-8 | Osa 9A33 LN "
         name = "SAM SA-8 Osa 9A33"
         detection_range = 30000
         threat_range = 10300
         air_weapon_dist = 10300
 
     class SAM_SA_15_Tor_9A331(unittype.VehicleType):
-        id = "Tor 9A331"
+        id = "SA-15 | Tor 9A331 SR "
         name = "SAM SA-15 Tor 9A331"
         detection_range = 25000
         threat_range = 12000
         air_weapon_dist = 12000
 
     class SAM_SA_13_Strela_10M3_9A35M3(unittype.VehicleType):
-        id = "Strela-10M3"
+        id = "SA-13 | Strela-10M3 9K35 IR "
         name = "SAM SA-13 Strela-10M3 9A35M3"
         detection_range = 8000
         threat_range = 5000
         air_weapon_dist = 5000
 
     class SAM_SA_9_Strela_1_9P31(unittype.VehicleType):
-        id = "Strela-1 9P31"
+        id = "SA-9 | Strela-1 9P31 IR "
         name = "SAM SA-9 Strela-1 9P31"
         detection_range = 5000
         threat_range = 4200
         air_weapon_dist = 4200
 
     class SAM_SA_11_Buk_CC_9S470M1(unittype.VehicleType):
-        id = "SA-11 Buk CC 9S470M1"
+        id = "SA-11 | Buk 9S470M1 CC "
         name = "SAM SA-11 Buk CC 9S470M1"
         detection_range = 0
         threat_range = 0
         air_weapon_dist = 0
 
     class SAM_SA_8_Osa_LD_9T217(unittype.VehicleType):
-        id = "SA-8 Osa LD 9T217"
+        id = "SA-8 | Osa 9T217 LD "
         name = "SAM SA-8 Osa LD 9T217"
         detection_range = 0
         threat_range = 0
@@ -303,7 +303,7 @@ class AirDefence:
         eprls = True
 
     class SPAAA_Gepard(unittype.VehicleType):
-        id = "Gepard"
+        id = "Gepard | SPAAA "
         name = "SPAAA Gepard"
         detection_range = 15000
         threat_range = 4000
@@ -384,7 +384,7 @@ class AirDefence:
         air_weapon_dist = 8000
 
     class SAM_SA_10_S_300PS_CP_54K6(unittype.VehicleType):
-        id = "S-300PS 54K6 cp"
+        id = "SA-10 | S-300PS 54K6 CP "
         name = "SAM SA-10 S-300PS CP 54K6"
         detection_range = 0
         threat_range = 0
@@ -412,84 +412,84 @@ class AirDefence:
         air_weapon_dist = 0
 
     class SPAAA_ZSU_23_4_Shilka(unittype.VehicleType):
-        id = "ZSU-23-4 Shilka"
+        id = "ZSU-23-4 |Shilka SPAAA "
         name = "SPAAA ZSU-23-4 Shilka"
         detection_range = 5000
         threat_range = 2500
         air_weapon_dist = 2500
 
     class AAA_ZU_23_Closed(unittype.VehicleType):
-        id = "ZU-23 Emplacement Closed"
+        id = "ZU-23 | Emplacement Closed AAA "
         name = "AAA ZU-23 Closed"
         detection_range = 5000
         threat_range = 2500
         air_weapon_dist = 2500
 
     class AAA_ZU_23_Emplacement(unittype.VehicleType):
-        id = "ZU-23 Emplacement"
+        id = "ZU-23 | Emplacement AAA "
         name = "AAA ZU-23 Emplacement"
         detection_range = 5000
         threat_range = 2500
         air_weapon_dist = 2500
 
     class AAA_ZU_23_on_Ural_375(unittype.VehicleType):
-        id = "Ural-375 ZU-23"
+        id = "ZU-23 | Ural-375 AAA "
         name = "AAA ZU-23 on Ural-375"
         detection_range = 5000
         threat_range = 2500
         air_weapon_dist = 2500
 
     class AAA_ZU_23_Insurgent_Closed(unittype.VehicleType):
-        id = "ZU-23 Closed Insurgent"
+        id = "ZU-23 | Closed Insurgent AAA "
         name = "AAA ZU-23 Insurgent Closed"
         detection_range = 5000
         threat_range = 2500
         air_weapon_dist = 2500
 
     class AAA_ZU_23_Insurgent_on_Ural_375(unittype.VehicleType):
-        id = "Ural-375 ZU-23 Insurgent"
+        id = "ZU-23 | Ural-375 Insurgent AAA "
         name = "AAA ZU-23 Insurgent on Ural-375"
         detection_range = 5000
         threat_range = 2500
         air_weapon_dist = 2500
 
     class AAA_ZU_23_Insurgent(unittype.VehicleType):
-        id = "ZU-23 Insurgent"
+        id = "ZU-23 | Insurgent AAA "
         name = "AAA ZU-23 Insurgent"
         detection_range = 5000
         threat_range = 2500
         air_weapon_dist = 2500
 
     class SAM_SA_18_Igla_MANPADS(unittype.VehicleType):
-        id = "SA-18 Igla manpad"
+        id = "SA-18 | Igla MANPAD "
         name = "SAM SA-18 Igla MANPADS"
         detection_range = 5000
         threat_range = 5200
         air_weapon_dist = 5200
 
     class SAM_SA_18_Igla_comm(unittype.VehicleType):
-        id = "SA-18 Igla comm"
+        id = "SA-18 | Igla Comm "
         name = "SAM SA-18 Igla comm"
         detection_range = 5000
         threat_range = 0
         air_weapon_dist = 0
 
     class SAM_SA_18_Igla_S_MANPADS(unittype.VehicleType):
-        id = "SA-18 Igla-S manpad"
+        id = "SA-18 | Igla-S MANPAD "
         name = "SAM SA-18 Igla-S MANPADS"
         detection_range = 5000
         threat_range = 5200
         air_weapon_dist = 5200
 
     class SAM_SA_18_Igla_S_comm(unittype.VehicleType):
-        id = "SA-18 Igla-S comm"
+        id = "SA-18 | Igla-S Comm "
         name = "SAM SA-18 Igla-S comm"
         detection_range = 5000
         threat_range = 0
         air_weapon_dist = 0
 
     class SAM_SA_18_Igla_MANPADS(unittype.VehicleType):
-        id = "Igla manpad INS"
+        id = "SA-18 | Igla MANPAD INS "
         name = "SAM SA-18 Igla MANPADS"
         detection_range = 5000
         threat_range = 5200
@@ -503,21 +503,21 @@ class AirDefence:
         air_weapon_dist = 0
 
     class SAM_SA_6_Kub_STR_9S91(unittype.VehicleType):
-        id = "Kub 1S91 str"
+        id = "SA-6 | Kub 1S91 STR "
         name = "SAM SA-6 Kub STR 9S91"
         detection_range = 70000
         threat_range = 0
         air_weapon_dist = 0
 
     class SAM_SA_10_S_300PS_TR_30N6(unittype.VehicleType):
-        id = "S-300PS 40B6M tr"
+        id = "SA-10 | S-300PS 40B6M TR "
         name = "SAM SA-10 S-300PS TR 30N6"
         detection_range = 160000
         threat_range = 0
         air_weapon_dist = 0
 
     class SAM_SA_10_S_300PS_SR_5N66M(unittype.VehicleType):
-        id = "S-300PS 40B6MD sr"
+        id = "SA-10 | S-300PS 40B6MD SR "
         name = "SAM SA-10 S-300PS SR 5N66M"
         detection_range = 60000
         threat_range = 0
@@ -531,14 +531,14 @@ class AirDefence:
         air_weapon_dist = 0
 
     class SAM_SA_10_S_300PS_SR_64H6E(unittype.VehicleType):
-        id = "S-300PS 64H6E sr"
+        id = "SA-10 | S-300PS 64H6E SR "
         name = "SAM SA-10 S-300PS SR 64H6E"
         detection_range = 160000
         threat_range = 0
         air_weapon_dist = 0
 
     class SAM_SA_11_Buk_SR_9S18M1(unittype.VehicleType):
-        id = "SA-11 Buk SR 9S18M1"
+        id = "SA-11 | Buk 9S18M1 SR "
         name = "SAM SA-11 Buk SR 9S18M1"
         detection_range = 100000
         threat_range = 0
@@ -582,7 +582,7 @@ class AirDefence:
         eprls = True
 
     class SAM_SR_P_19(unittype.VehicleType):
-        id = "p-19 s-125 sr"
+        id = "SA-3 | S-125 P-19 1RL134 SR "
         name = "SAM SR P-19"
         detection_range = 160000
         threat_range = 0
@@ -596,21 +596,21 @@ class AirDefence:
         air_weapon_dist = 0
 
     class SAM_SA_3_S_125_TR_SNR(unittype.VehicleType):
-        id = "snr s-125 tr"
+        id = "SA-3 | SNR-125 TR "
         name = "SAM SA-3 S-125 TR SNR"
         detection_range = 100000
         threat_range = 0
         air_weapon_dist = 0
 
     class SAM_SA_2_LN_SM_90(unittype.VehicleType):
-        id = "S_75M_Volhov"
+        id = "SA-2 | S-75M_Volkhov LN "
         name = "SAM SA-2 LN SM-90"
         detection_range = 0
         threat_range = 43000
         air_weapon_dist = 43000
 
     class SAM_SA_2_TR_SNR_75_Fan_Song(unittype.VehicleType):
-        id = "SNR_75V"
+        id = "SA-2 | SNR-75V TR "
         name = "SAM SA-2 TR SNR-75 Fan Song"
         detection_range = 100000
         threat_range = 0
@@ -1685,21 +1685,21 @@ vehicle_map = {
     "Smerch": Artillery.MLRS_9A52_Smerch,
     "Smerch_HE": Artillery.MLRS_9A52_Smerch_HE,
     "MLRS": Artillery.MLRS_M270,
-    "2S6 Tunguska": AirDefence.SAM_SA_19_Tunguska_2S6,
-    "Kub 2P25 ln": AirDefence.SAM_SA_6_Kub_LN_2P25,
-    "5p73 s-125 ln": AirDefence.SAM_SA_3_S_125_LN_5P73,
-    "S-300PS 5P85C ln": AirDefence.SAM_SA_10_S_300PS_LN_5P85C,
-    "S-300PS 5P85D ln": AirDefence.SAM_SA_10_S_300PS_LN_5P85D,
-    "SA-11 Buk LN 9A310M1": AirDefence.SAM_SA_11_Buk_LN_9A310M1,
-    "Osa 9A33 ln": AirDefence.SAM_SA_8_Osa_9A33,
-    "Tor 9A331": AirDefence.SAM_SA_15_Tor_9A331,
-    "Strela-10M3": AirDefence.SAM_SA_13_Strela_10M3_9A35M3,
-    "Strela-1 9P31": AirDefence.SAM_SA_9_Strela_1_9P31,
-    "SA-11 Buk CC 9S470M1": AirDefence.SAM_SA_11_Buk_CC_9S470M1,
-    "SA-8 Osa LD 9T217": AirDefence.SAM_SA_8_Osa_LD_9T217,
+    "SA-19 | 2S6 Tunguska ": AirDefence.SAM_SA_19_Tunguska_2S6,
+    "SA-6 | Kub 2P25 LN ": AirDefence.SAM_SA_6_Kub_LN_2P25,
+    "SA-3 | S-125 5P73 LN ": AirDefence.SAM_SA_3_S_125_LN_5P73,
+    "SA-10 | S-300PS 5P85C LN ": AirDefence.SAM_SA_10_S_300PS_LN_5P85C,
+    "SA-10 | S-300PS 5P85D LN ": AirDefence.SAM_SA_10_S_300PS_LN_5P85D,
+    "SA-11 | Buk 9A310M1 LN ": AirDefence.SAM_SA_11_Buk_LN_9A310M1,
+    "SA-8 | Osa 9A33 LN ": AirDefence.SAM_SA_8_Osa_9A33,
+    "SA-15 | Tor 9A331 SR ": AirDefence.SAM_SA_15_Tor_9A331,
+    "SA-13 | Strela-10M3 9K35 IR ": AirDefence.SAM_SA_13_Strela_10M3_9A35M3,
+    "SA-9 | Strela-1 9P31 IR ": AirDefence.SAM_SA_9_Strela_1_9P31,
+    "SA-11 | Buk 9S470M1 CC ": AirDefence.SAM_SA_11_Buk_CC_9S470M1,
+    "SA-8 | Osa 9T217 LD ": AirDefence.SAM_SA_8_Osa_LD_9T217,
     "Patriot AMG": AirDefence.SAM_Patriot_AMG_AN_MRC_137,
     "Patriot ECS": AirDefence.SAM_Patriot_ECS_AN_MSQ_104,
-    "Gepard": AirDefence.SPAAA_Gepard,
+    "Gepard | SPAAA ": AirDefence.SPAAA_Gepard,
     "Hawk pcp": AirDefence.SAM_Hawk_PCP,
     "Vulcan": AirDefence.AAA_Vulcan_M163,
     "Hawk ln": AirDefence.SAM_Hawk_LN_M192,
@@ -1710,37 +1710,37 @@ vehicle_map = {
     "Patriot EPP": AirDefence.SAM_Patriot_EPP_III,
     "Patriot cp": AirDefence.SAM_Patriot_ICC,
     "Roland ADS": AirDefence.SAM_Roland_ADS,
-    "S-300PS 54K6 cp": AirDefence.SAM_SA_10_S_300PS_CP_54K6,
+    "SA-10 | S-300PS 54K6 CP ": AirDefence.SAM_SA_10_S_300PS_CP_54K6,
     "Soldier stinger": AirDefence.Stinger_MANPADS,
     "Stinger comm dsr": AirDefence.SAM_Stinger_comm_dsr,
     "Stinger comm": AirDefence.SAM_Stinger_comm,
-    "ZSU-23-4 Shilka": AirDefence.SPAAA_ZSU_23_4_Shilka,
-    "ZU-23 Emplacement Closed": AirDefence.AAA_ZU_23_Closed,
-    "ZU-23 Emplacement": AirDefence.AAA_ZU_23_Emplacement,
-    "Ural-375 ZU-23": AirDefence.AAA_ZU_23_on_Ural_375,
-    "ZU-23 Closed Insurgent": AirDefence.AAA_ZU_23_Insurgent_Closed,
-    "Ural-375 ZU-23 Insurgent": AirDefence.AAA_ZU_23_Insurgent_on_Ural_375,
-    "ZU-23 Insurgent": AirDefence.AAA_ZU_23_Insurgent,
-    "SA-18 Igla manpad": AirDefence.SAM_SA_18_Igla_MANPADS,
-    "SA-18 Igla comm": AirDefence.SAM_SA_18_Igla_comm,
-    "SA-18 Igla-S manpad": AirDefence.SAM_SA_18_Igla_S_MANPADS,
-    "SA-18 Igla-S comm": AirDefence.SAM_SA_18_Igla_S_comm,
-    "Igla manpad INS": AirDefence.SAM_SA_18_Igla_MANPADS,
+    "ZSU-23-4 |Shilka SPAAA ": AirDefence.SPAAA_ZSU_23_4_Shilka,
+    "ZU-23 | Emplacement Closed AAA ": AirDefence.AAA_ZU_23_Closed,
+    "ZU-23 | Emplacement AAA ": AirDefence.AAA_ZU_23_Emplacement,
+    "ZU-23 | Ural-375 AAA ": AirDefence.AAA_ZU_23_on_Ural_375,
+    "ZU-23 | Closed Insurgent AAA ": AirDefence.AAA_ZU_23_Insurgent_Closed,
+    "ZU-23 | Ural-375 Insurgent AAA ": AirDefence.AAA_ZU_23_Insurgent_on_Ural_375,
+    "ZU-23 | Insurgent AAA ": AirDefence.AAA_ZU_23_Insurgent,
+    "SA-18 | Igla MANPAD ": AirDefence.SAM_SA_18_Igla_MANPADS,
+    "SA-18 | Igla Comm ": AirDefence.SAM_SA_18_Igla_comm,
+    "SA-18 | Igla-S MANPAD ": AirDefence.SAM_SA_18_Igla_S_MANPADS,
+    "SA-18 | Igla-S Comm ": AirDefence.SAM_SA_18_Igla_S_comm,
+    "SA-18 | Igla manpad INS ": AirDefence.SAM_SA_18_Igla_MANPADS,
     "1L13 EWR": AirDefence.EWR_1L13,
-    "Kub 1S91 str": AirDefence.SAM_SA_6_Kub_STR_9S91,
-    "S-300PS 40B6M tr": AirDefence.SAM_SA_10_S_300PS_TR_30N6,
-    "S-300PS 40B6MD sr": AirDefence.SAM_SA_10_S_300PS_SR_5N66M,
+    "SA-6 | Kub 1S91 STR ": AirDefence.SAM_SA_6_Kub_STR_9S91,
+    "SA-10 | S-300PS 40B6M TR ": AirDefence.SAM_SA_10_S_300PS_TR_30N6,
+    "SA-10 | S-300PS 40B6MD SR ": AirDefence.SAM_SA_10_S_300PS_SR_5N66M,
     "55G6 EWR": AirDefence.EWR_55G6,
-    "S-300PS 64H6E sr": AirDefence.SAM_SA_10_S_300PS_SR_64H6E,
-    "SA-11 Buk SR 9S18M1": AirDefence.SAM_SA_11_Buk_SR_9S18M1,
+    "SA-10 | S-300PS 64H6E SR ": AirDefence.SAM_SA_10_S_300PS_SR_64H6E,
+    "SA-11 | Buk 9S18M1 SR ": AirDefence.SAM_SA_11_Buk_SR_9S18M1,
     "Dog Ear radar": AirDefence.CP_9S80M1_Sborka,
     "Hawk tr": AirDefence.SAM_Hawk_TR_AN_MPQ_46,
     "Hawk sr": AirDefence.SAM_Hawk_SR_AN_MPQ_50,
     "Patriot str": AirDefence.SAM_Patriot_STR_AN_MPQ_53,
     "Hawk cwar": AirDefence.SAM_Hawk_CWAR_AN_MPQ_55,
-    "p-19 s-125 sr": AirDefence.SAM_SR_P_19,
+    "SA-3 | S-125 P-19 1RL134 SR ": AirDefence.SAM_SR_P_19,
     "Roland Radar": AirDefence.SAM_Roland_EWR,
-    "snr s-125 tr": AirDefence.SAM_SA_3_S_125_TR_SNR,
+    "SA-3 | SNR-125 TR ": AirDefence.SAM_SA_3_S_125_TR_SNR,
     "house1arm": Fortification.Barracks_armed,
     "house2arm": Fortification.Watch_tower_armed,
     "outpost_road": Fortification.Road_outpost,
@@ -1799,8 +1799,8 @@ vehicle_map = {
     "Coach a passenger": Carriage.Coach_for_passengers,
     "Coach a platform": Carriage.Coach_flatbed,
     "Scud_B": MissilesSS.SRBM_SS_1C_Scud_B_9K72_LN_9P117M,
-    "S_75M_Volhov": AirDefence.SAM_SA_2_LN_SM_90,
-    "SNR_75V": AirDefence.SAM_SA_2_TR_SNR_75_Fan_Song,
+    "SA-2 | S-75M_Volkhov LN ": AirDefence.SAM_SA_2_LN_SM_90,
+    "SA-2 | SNR-75V TR ": AirDefence.SAM_SA_2_TR_SNR_75_Fan_Song,
     "rapier_fsa_launcher": AirDefence.Rapier_FSA_Launcher,
     "rapier_fsa_optical_tracker_unit": AirDefence.Rapier_FSA_Optical_Tracker,
     "rapier_fsa_blindfire_radar": AirDefence.Rapier_FSA_Blindfire_Tracker,
